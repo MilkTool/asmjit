@@ -40,7 +40,7 @@ static void printInfo(uint32_t arch, const BaseInst& inst, const Operand_* opera
 #ifndef ASMJIT_NO_LOGGING
   Formatter::formatInstruction(sb, 0, nullptr, arch, inst, operands, opCount);
 #else
-  sb.append("<Logging-Not-Available>")
+  sb.append("<Logging-Not-Available>");
 #endif
   sb.append("\n");
 
